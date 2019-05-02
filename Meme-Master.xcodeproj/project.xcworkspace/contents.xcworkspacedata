@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Meme-Master.xcodeproj">
+      location = "self:/Users/Aize/Desktop/Meme-Master/Meme-Master.xcodeproj">
    </FileRef>
 </Workspace>

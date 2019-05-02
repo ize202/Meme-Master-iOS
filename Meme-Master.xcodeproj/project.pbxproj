@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		671BF1C0227B70FF00BF8CE6 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 671BF1BF227B70FF00BF8CE6 /* Montserrat-Regular.ttf */; };
+		671BF1C2227B711000BF8CE6 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 671BF1C1227B711000BF8CE6 /* Montserrat-Bold.ttf */; };
+		671BF1C4227B712500BF8CE6 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 671BF1C3227B712500BF8CE6 /* Montserrat-Medium.ttf */; };
+		671BF1C6227B713800BF8CE6 /* BebasNeue-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 671BF1C5227B713800BF8CE6 /* BebasNeue-Bold.ttf */; };
 		679BBD20227482F9000748DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679BBD1F227482F9000748DB /* AppDelegate.swift */; };
 		679BBD22227482F9000748DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679BBD21227482F9000748DB /* ViewController.swift */; };
 		679BBD25227482F9000748DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 679BBD23227482F9000748DB /* Main.storyboard */; };
@@ -15,6 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		671BF1BF227B70FF00BF8CE6 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		671BF1C1227B711000BF8CE6 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		671BF1C3227B712500BF8CE6 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		671BF1C5227B713800BF8CE6 /* BebasNeue-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BebasNeue-Bold.ttf"; sourceTree = "<group>"; };
 		679BBD1C227482F9000748DB /* Meme-Master.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Meme-Master.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		679BBD1F227482F9000748DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		679BBD21227482F9000748DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +43,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		671BF1BE227B70B200BF8CE6 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				671BF1C5227B713800BF8CE6 /* BebasNeue-Bold.ttf */,
+				671BF1C1227B711000BF8CE6 /* Montserrat-Bold.ttf */,
+				671BF1BF227B70FF00BF8CE6 /* Montserrat-Regular.ttf */,
+				671BF1C3227B712500BF8CE6 /* Montserrat-Medium.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		679BBD13227482F9000748DB = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +79,7 @@
 				679BBD26227482FF000748DB /* Assets.xcassets */,
 				679BBD28227482FF000748DB /* LaunchScreen.storyboard */,
 				679BBD2B227482FF000748DB /* Info.plist */,
+				671BF1BE227B70B200BF8CE6 /* Fonts */,
 			);
 			path = "Meme-Master";
 			sourceTree = "<group>";
@@ -122,8 +142,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				671BF1C2227B711000BF8CE6 /* Montserrat-Bold.ttf in Resources */,
+				671BF1C0227B70FF00BF8CE6 /* Montserrat-Regular.ttf in Resources */,
 				679BBD2A227482FF000748DB /* LaunchScreen.storyboard in Resources */,
+				671BF1C6227B713800BF8CE6 /* BebasNeue-Bold.ttf in Resources */,
 				679BBD27227482FF000748DB /* Assets.xcassets in Resources */,
+				671BF1C4227B712500BF8CE6 /* Montserrat-Medium.ttf in Resources */,
 				679BBD25227482F9000748DB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -40,7 +40,6 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         
         cell.titleLabel.text = emojis[indexPath.item]
         cell.emoji.image = emojiImages[indexPath.item]
-        cell.backgroundColor = .lightGray
         return cell
     }
 }

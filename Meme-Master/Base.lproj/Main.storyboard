@@ -100,8 +100,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Play" largeTitleDisplayMode="never" id="Mmh-nX-RDd">
+                    <navigationItem key="navigationItem" title="Play" id="Mmh-nX-RDd">
                         <barButtonItem key="leftBarButtonItem" title="Item" image="infoIcon" id="chd-Q9-rKd">
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
                                 <action selector="sendEmail:" destination="BYZ-38-t0r" id="Bv2-2U-n7k"/>
                             </connections>
@@ -120,8 +121,8 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="NHX-CZ-JPY" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="9j4-Iw-vF6">
-                        <rect key="frame" x="0.0" y="44" width="375" height="96"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="9j4-Iw-vF6">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <textAttributes key="largeTitleTextAttributes">
@@ -143,6 +144,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="infoIcon" width="128" height="128"/>
+        <image name="infoIcon" width="18" height="18"/>
     </resources>
 </document>

@@ -24,7 +24,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="6bn-Km-6K5">
-                                <rect key="frame" x="0.0" y="140" width="375" height="638"/>
+                                <rect key="frame" x="0.0" y="88" width="375" height="690"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="15" id="C8n-6B-e75">
                                     <size key="itemSize" width="293" height="148"/>
@@ -40,7 +40,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="293" height="148"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ggu-c5-3pN">
+                                                <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="ggu-c5-3pN">
                                                     <rect key="frame" x="36.000000000000007" y="79" width="90.666666666666671" height="29.333333333333332"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <subviews>
@@ -100,7 +100,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Play" id="Mmh-nX-RDd"/>
+                    <navigationItem key="navigationItem" title="Play" largeTitleDisplayMode="never" id="Mmh-nX-RDd">
+                        <barButtonItem key="leftBarButtonItem" title="Item" image="infoIcon" id="chd-Q9-rKd">
+                            <connections>
+                                <action selector="sendEmail:" destination="BYZ-38-t0r" id="Bv2-2U-n7k"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="collectionView" destination="6bn-Km-6K5" id="5xR-Mc-iDB"/>
                     </connections>
@@ -136,4 +142,7 @@
             <point key="canvasLocation" x="-183" y="-636"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="infoIcon" width="128" height="128"/>
+    </resources>
 </document>

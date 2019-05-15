@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="NHX-CZ-JPY">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Cqx-XL-pr3">
     <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -24,7 +24,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="6bn-Km-6K5">
-                                <rect key="frame" x="0.0" y="88" width="375" height="690"/>
+                                <rect key="frame" x="0.0" y="88" width="375" height="597"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="15" id="C8n-6B-e75">
                                     <size key="itemSize" width="293" height="148"/>
@@ -100,6 +100,8 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Play" image="boltIcon" id="oGM-if-ibr"/>
+                    <toolbarItems/>
                     <navigationItem key="navigationItem" title="Play" id="Mmh-nX-RDd">
                         <barButtonItem key="leftBarButtonItem" title="Item" image="infoIcon" id="chd-Q9-rKd">
                             <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -108,18 +110,71 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="collectionView" destination="6bn-Km-6K5" id="5xR-Mc-iDB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="620" y="-636.4317841079461"/>
+            <point key="canvasLocation" x="-2865" y="-853"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--View Controller-->
+        <scene sceneID="dMr-9l-yVJ">
+            <objects>
+                <viewController id="ofz-3N-KFq" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Bcy-S2-bas">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="d6D-Ex-iR9"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" systemItem="search" id="nU4-8C-PoU"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zy8-J6-Gsg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2866" y="-141"/>
+        </scene>
+        <!--Discover-->
+        <scene sceneID="He8-1F-lu5">
+            <objects>
+                <viewController id="CDV-km-0w6" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="J46-HO-2SA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="EhX-0M-sns"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Discover" image="discoverIcon" id="2z6-77-3jk"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1YV-Tl-V7d" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2866" y="-1547"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="voz-GM-9CL">
+            <objects>
+                <tabBarController id="Cqx-XL-pr3" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Glu-cO-zy2">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="CDV-km-0w6" kind="relationship" relationship="viewControllers" id="BiZ-al-rCP"/>
+                        <segue destination="ofz-3N-KFq" kind="relationship" relationship="viewControllers" id="hKb-FR-ZKm"/>
+                        <segue destination="NHX-CZ-JPY" kind="relationship" relationship="viewControllers" id="mFM-mH-rHe"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nd7-zp-U9Q" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-4415" y="-853"/>
+        </scene>
+        <!--Item-->
         <scene sceneID="HpA-8J-S6s">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="NHX-CZ-JPY" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="4tZ-Mt-Pw9"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="9j4-Iw-vF6">
                         <rect key="frame" x="0.0" y="44" width="375" height="44"/>
@@ -135,15 +190,17 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </toolbar>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="TMK-uP-g4p"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="gxh-iB-4Z0"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gKD-9y-BoH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-183" y="-636"/>
+            <point key="canvasLocation" x="-3607" y="-853"/>
         </scene>
     </scenes>
     <resources>
-        <image name="infoIcon" width="18" height="18"/>
+        <image name="boltIcon" width="22.5" height="22.5"/>
+        <image name="discoverIcon" width="22.5" height="22.5"/>
+        <image name="infoIcon" width="22.5" height="22.5"/>
     </resources>
 </document>

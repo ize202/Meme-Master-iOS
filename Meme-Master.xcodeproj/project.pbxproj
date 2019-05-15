@@ -17,6 +17,9 @@
 		679BBD27227482FF000748DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 679BBD26227482FF000748DB /* Assets.xcassets */; };
 		679BBD2A227482FF000748DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 679BBD28227482FF000748DB /* LaunchScreen.storyboard */; };
 		67F10961227CDCEA00BB437C /* BebasNeue-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 67F10960227CDCE900BB437C /* BebasNeue-Bold.otf */; };
+		67F10964228CA6B900BB437C /* Search.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67F10963228CA6B900BB437C /* Search.storyboard */; };
+		67F10966228CA6C900BB437C /* Discover.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67F10965228CA6C900BB437C /* Discover.storyboard */; };
+		67F10968228CA76300BB437C /* play.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67F10967228CA76300BB437C /* play.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,9 @@
 		679BBD29227482FF000748DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		679BBD2B227482FF000748DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		67F10960227CDCE900BB437C /* BebasNeue-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "BebasNeue-Bold.otf"; path = "../../../../Downloads/bebas_neue/BebasNeue-Bold.otf"; sourceTree = "<group>"; };
+		67F10963228CA6B900BB437C /* Search.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Search.storyboard; sourceTree = "<group>"; };
+		67F10965228CA6C900BB437C /* Discover.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Discover.storyboard; sourceTree = "<group>"; };
+		67F10967228CA76300BB437C /* play.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = play.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,16 +81,27 @@
 		679BBD1E227482F9000748DB /* Meme-Master */ = {
 			isa = PBXGroup;
 			children = (
+				67F10962228CA65E00BB437C /* Storyboards */,
 				679BBD1F227482F9000748DB /* AppDelegate.swift */,
 				679BBD21227482F9000748DB /* ViewController.swift */,
 				671BF1C8227B867600BF8CE6 /* CollectionViewCell.swift */,
-				679BBD23227482F9000748DB /* Main.storyboard */,
 				679BBD26227482FF000748DB /* Assets.xcassets */,
 				679BBD28227482FF000748DB /* LaunchScreen.storyboard */,
 				679BBD2B227482FF000748DB /* Info.plist */,
 				671BF1BE227B70B200BF8CE6 /* Fonts */,
 			);
 			path = "Meme-Master";
+			sourceTree = "<group>";
+		};
+		67F10962228CA65E00BB437C /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				679BBD23227482F9000748DB /* Main.storyboard */,
+				67F10967228CA76300BB437C /* play.storyboard */,
+				67F10963228CA6B900BB437C /* Search.storyboard */,
+				67F10965228CA6C900BB437C /* Discover.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,11 +164,14 @@
 			files = (
 				671BF1C2227B711000BF8CE6 /* Montserrat-Bold.ttf in Resources */,
 				671BF1C0227B70FF00BF8CE6 /* Montserrat-Regular.ttf in Resources */,
+				67F10968228CA76300BB437C /* play.storyboard in Resources */,
 				679BBD2A227482FF000748DB /* LaunchScreen.storyboard in Resources */,
 				67F10961227CDCEA00BB437C /* BebasNeue-Bold.otf in Resources */,
 				679BBD27227482FF000748DB /* Assets.xcassets in Resources */,
 				671BF1C4227B712500BF8CE6 /* Montserrat-Medium.ttf in Resources */,
+				67F10964228CA6B900BB437C /* Search.storyboard in Resources */,
 				679BBD25227482F9000748DB /* Main.storyboard in Resources */,
+				67F10966228CA6C900BB437C /* Discover.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -82,6 +82,7 @@
                                             <outlet property="highScoreLabel" destination="SEo-IK-Eox" id="u3c-kP-GYT"/>
                                             <outlet property="levelLabel" destination="zgP-qn-jMK" id="NJU-Gb-SNj"/>
                                             <outlet property="titleLabel" destination="RD1-A0-h12" id="pNt-tE-dTA"/>
+                                            <segue destination="VTO-wj-QiB" kind="show" id="YTU-i3-a65"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
@@ -118,6 +119,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="laz-q9-p0r" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-4071" y="-1158"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="mgk-58-esO">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7gS-Mt-JDF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="VTO-wj-QiB" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FTE-lG-cph">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="CPs-0k-REX"/>
+                    </view>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="-3401" y="-1158"/>
         </scene>
         <!--Play-->
         <scene sceneID="mHT-lG-5CZ">

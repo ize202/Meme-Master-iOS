@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		62B96BC61EA0652CB0AF2F72 /* Pods_Meme_Master.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48FD7092398FCB1774777F6D /* Pods_Meme_Master.framework */; };
 		671BF1C0227B70FF00BF8CE6 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 671BF1BF227B70FF00BF8CE6 /* Montserrat-Regular.ttf */; };
 		671BF1C2227B711000BF8CE6 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 671BF1C1227B711000BF8CE6 /* Montserrat-Bold.ttf */; };
 		671BF1C4227B712500BF8CE6 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 671BF1C3227B712500BF8CE6 /* Montserrat-Medium.ttf */; };
@@ -20,13 +21,13 @@
 		67F10964228CA6B900BB437C /* Search.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67F10963228CA6B900BB437C /* Search.storyboard */; };
 		67F10966228CA6C900BB437C /* Discover.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67F10965228CA6C900BB437C /* Discover.storyboard */; };
 		67F10968228CA76300BB437C /* play.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67F10967228CA76300BB437C /* play.storyboard */; };
-		67F1096C228F18FD00BB437C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 67F1096B228F18FD00BB437C /* GoogleService-Info.plist */; };
-		C48F43C5E827C3E200BDB435 /* Pods_Meme_Master.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3012381C8FEDB765C4461719 /* Pods_Meme_Master.framework */; };
+		67F1098F228F3D4E00BB437C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 67F1098E228F3D4E00BB437C /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3012381C8FEDB765C4461719 /* Pods_Meme_Master.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Meme_Master.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C04721019EB9B7C25C9C5A3 /* Pods-Meme-Master.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meme-Master.release.xcconfig"; path = "Target Support Files/Pods-Meme-Master/Pods-Meme-Master.release.xcconfig"; sourceTree = "<group>"; };
+		21326BD8C6845B5B9EFC12AA /* Pods-Meme-Master.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meme-Master.debug.xcconfig"; path = "Target Support Files/Pods-Meme-Master/Pods-Meme-Master.debug.xcconfig"; sourceTree = "<group>"; };
+		48FD7092398FCB1774777F6D /* Pods_Meme_Master.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Meme_Master.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A3D3D4292BCC72C09F13B8B /* Pods-Meme-Master.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meme-Master.release.xcconfig"; path = "Target Support Files/Pods-Meme-Master/Pods-Meme-Master.release.xcconfig"; sourceTree = "<group>"; };
 		671BF1BF227B70FF00BF8CE6 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
 		671BF1C1227B711000BF8CE6 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
 		671BF1C3227B712500BF8CE6 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
@@ -42,8 +43,7 @@
 		67F10963228CA6B900BB437C /* Search.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Search.storyboard; sourceTree = "<group>"; };
 		67F10965228CA6C900BB437C /* Discover.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Discover.storyboard; sourceTree = "<group>"; };
 		67F10967228CA76300BB437C /* play.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = play.storyboard; sourceTree = "<group>"; };
-		67F1096B228F18FD00BB437C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
-		832C90CE44412B651A7FE2AD /* Pods-Meme-Master.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meme-Master.debug.xcconfig"; path = "Target Support Files/Pods-Meme-Master/Pods-Meme-Master.debug.xcconfig"; sourceTree = "<group>"; };
+		67F1098E228F3D4E00BB437C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,13 +51,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C48F43C5E827C3E200BDB435 /* Pods_Meme_Master.framework in Frameworks */,
+				62B96BC61EA0652CB0AF2F72 /* Pods_Meme_Master.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		33F492BD9D4F7DD323428D8A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				21326BD8C6845B5B9EFC12AA /* Pods-Meme-Master.debug.xcconfig */,
+				4A3D3D4292BCC72C09F13B8B /* Pods-Meme-Master.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		671BF1BE227B70B200BF8CE6 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
@@ -74,8 +84,8 @@
 			children = (
 				679BBD1E227482F9000748DB /* Meme-Master */,
 				679BBD1D227482F9000748DB /* Products */,
-				D6C55EF1E131A9DD4C82AF54 /* Pods */,
 				7DC2D49D147DC2E44EFC3C5D /* Frameworks */,
+				33F492BD9D4F7DD323428D8A /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,7 +107,7 @@
 				679BBD26227482FF000748DB /* Assets.xcassets */,
 				679BBD28227482FF000748DB /* LaunchScreen.storyboard */,
 				679BBD2B227482FF000748DB /* Info.plist */,
-				67F1096B228F18FD00BB437C /* GoogleService-Info.plist */,
+				67F1098E228F3D4E00BB437C /* GoogleService-Info.plist */,
 				671BF1BE227B70B200BF8CE6 /* Fonts */,
 			);
 			path = "Meme-Master";
@@ -117,18 +127,9 @@
 		7DC2D49D147DC2E44EFC3C5D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3012381C8FEDB765C4461719 /* Pods_Meme_Master.framework */,
+				48FD7092398FCB1774777F6D /* Pods_Meme_Master.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D6C55EF1E131A9DD4C82AF54 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				832C90CE44412B651A7FE2AD /* Pods-Meme-Master.debug.xcconfig */,
-				5C04721019EB9B7C25C9C5A3 /* Pods-Meme-Master.release.xcconfig */,
-			);
-			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,8 +200,8 @@
 				679BBD27227482FF000748DB /* Assets.xcassets in Resources */,
 				671BF1C4227B712500BF8CE6 /* Montserrat-Medium.ttf in Resources */,
 				67F10964228CA6B900BB437C /* Search.storyboard in Resources */,
+				67F1098F228F3D4E00BB437C /* GoogleService-Info.plist in Resources */,
 				679BBD25227482F9000748DB /* Main.storyboard in Resources */,
-				67F1096C228F18FD00BB437C /* GoogleService-Info.plist in Resources */,
 				67F10966228CA6C900BB437C /* Discover.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,12 +408,13 @@
 		};
 		679BBD2F227482FF000748DB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 832C90CE44412B651A7FE2AD /* Pods-Meme-Master.debug.xcconfig */;
+			baseConfigurationReference = 21326BD8C6845B5B9EFC12AA /* Pods-Meme-Master.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H8F484VNTV;
 				INFOPLIST_FILE = "Meme-Master/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -426,12 +428,13 @@
 		};
 		679BBD30227482FF000748DB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5C04721019EB9B7C25C9C5A3 /* Pods-Meme-Master.release.xcconfig */;
+			baseConfigurationReference = 4A3D3D4292BCC72C09F13B8B /* Pods-Meme-Master.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H8F484VNTV;
 				INFOPLIST_FILE = "Meme-Master/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
